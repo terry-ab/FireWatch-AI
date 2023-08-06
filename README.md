@@ -1,5 +1,11 @@
 <h1>FireWatchAI: Wildfire Detection with Computer Vision</h1>
 
+<h2>Group Members</h2>
+Nooh Faisal
+Anab Faiaz
+Ramana Surriyan Rajendran
+Terry Abraham
+
 In this project, we developed a state-of-the-art wildfire detection system based on computer vision principles. The system employs two powerful object detection models - Faster RCNN and YOLO - to analyze real-time aerial and ground-based imagery for wildfire smoke detection.
 
 <h2>Introduction</h2>
