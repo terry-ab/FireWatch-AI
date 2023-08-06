@@ -1,0 +1,11 @@
+streamlit
+ultralytics
+numpy
+PILLOW
+torch
+torchvision
+opencv-python
+requests
+lottie
+io
+os-sys
