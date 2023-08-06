@@ -24,6 +24,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
     )
     return response.choices[0].message["content"]
 
+#Predict Function
 def predict_with_yolov8(img_bytes):
     # Load the YOLOv8 model
     model = YOLO('detect/train/weights/best.pt')
@@ -40,7 +41,7 @@ def predict_with_yolov8(img_bytes):
     
     return res_plotted,pred
 
-##LOAD GIF files
+#LOAD GIF files
 def load_lottieurl(url):
     r= requests.get(url)
     if r.status_code!=200:
@@ -82,7 +83,7 @@ if uploaded_file is not None:
                         Make the News article short."""
 
                         response = get_completion(prompt)
-                        st.markdown(response) 
+                        st.markdown(response) #Get News Article from Openai API
                 with col2:
                     st.image(out_img, use_column_width=True,caption="Wildfire Smoke in Canada")
         
@@ -99,6 +100,6 @@ if uploaded_file is not None:
              
              Make sure to give only few keywords as possible for it """
              response = get_completion(prompt)
-             st.markdown(response)
+             st.markdown(response) #Get Awarness from Openai API
 
              
