@@ -7,5 +7,6 @@ torchvision
 opencv-python
 requests
 streamlit_lottie
-os
-dotenv
+openai
+spacy-lookups-data
+python-dotenv
