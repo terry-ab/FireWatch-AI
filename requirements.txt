@@ -6,5 +6,6 @@ torch
 torchvision
 opencv-python
 requests
-lottie
-os-sys
+streamlit_lottie
+os
+dotenv
