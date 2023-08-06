@@ -5,7 +5,6 @@ import numpy as np
 import openai
 import cv2
 import os
-import io
 import requests
 from streamlit_lottie import st_lottie
 
