@@ -29,3 +29,8 @@ By leveraging computer vision and deep learning, FireWatchAI exemplifies how inn
 <h3>Demo</h3>
 
 [FireWatchAI App Demo](https://firewatch-ai-fbqfb4dawupukndsmmv65c.streamlit.app/)
+
+<h3>Github Pages Link</h3>
+
+[Interactive HTML](https://terry-ab.github.io/FireWatch-AI/Final_project.html)
+
