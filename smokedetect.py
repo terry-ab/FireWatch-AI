@@ -27,7 +27,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 #Predict Function
 def predict_with_yolov8(img_bytes):
     # Load the YOLOv8 model
-    model = YOLO('detect/train/weights/best.pt')
+    model = YOLO('best.pt')
 
     # Convert the image bytes to PIL image
     pil_image = Image.open(img_bytes)
@@ -41,7 +41,7 @@ def predict_with_yolov8(img_bytes):
     
     return res_plotted,pred
 
-#LOAD GIF files
+#Loading GIF files
 def load_lottieurl(url):
     r= requests.get(url)
     if r.status_code!=200:
