@@ -7,5 +7,4 @@ torchvision
 opencv-python
 requests
 lottie
-io
 os-sys
